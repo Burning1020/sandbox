@@ -1,16 +1,9 @@
 # Example file: https://github.com/cncf/gitvote/blob/main/docs/config/.gitvote.yml
 profiles:
   default:
-    duration: 13w
+    duration: 1m
     pass_threshold: 66
     allowed_voters:
-      teams:
-        - cncf-toc
-      exclude_team_maintainers: true
-  sandbox:
-    duration: 1w
-    pass_threshold: 66
-    allowed_voters:
-      teams:
-        - cncf-toc
+      users:
+        - Burning1020
       exclude_team_maintainers: true
