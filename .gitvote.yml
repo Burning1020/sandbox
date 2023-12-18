@@ -7,3 +7,10 @@ profiles:
       users:
         - Burning1020
       exclude_team_maintainers: true
+  sandbox:
+    duration: 1m
+    pass_threshold: 66
+    allowed_voters:
+      users:
+        - Burning1020
+      exclude_team_maintainers: true
